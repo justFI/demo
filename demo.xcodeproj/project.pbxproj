@@ -15,6 +15,7 @@
 		DF7B0DCB1C0E807E000371BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7B0DC91C0E807E000371BC /* LaunchScreen.storyboard */; };
 		DF7B0DD61C0E807E000371BC /* demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B0DD51C0E807E000371BC /* demoTests.m */; };
 		DF7B0DE11C0E807E000371BC /* demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B0DE01C0E807E000371BC /* demoUITests.m */; };
+		DF9A92FA1C113134004B864B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DF9A92F91C113134004B864B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		DF7B0DDC1C0E807E000371BC /* demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7B0DE01C0E807E000371BC /* demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demoUITests.m; sourceTree = "<group>"; };
 		DF7B0DE21C0E807F000371BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF9A92F91C113134004B864B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				DF7B0DC11C0E807D000371BC /* ViewController.h */,
 				DF7B0DC21C0E807D000371BC /* ViewController.m */,
 				DF7B0DC41C0E807D000371BC /* Main.storyboard */,
+				DF9A92F91C113134004B864B /* README.md */,
 				DF7B0DC71C0E807D000371BC /* Assets.xcassets */,
 				DF7B0DC91C0E807E000371BC /* LaunchScreen.storyboard */,
 				DF7B0DCC1C0E807E000371BC /* Info.plist */,
@@ -246,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF9A92FA1C113134004B864B /* README.md in Resources */,
 				DF7B0DCB1C0E807E000371BC /* LaunchScreen.storyboard in Resources */,
 				DF7B0DC81C0E807D000371BC /* Assets.xcassets in Resources */,
 				DF7B0DC61C0E807D000371BC /* Main.storyboard in Resources */,
@@ -501,6 +505,7 @@
 				DF7B0DE71C0E807F000371BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF7B0DE81C0E807F000371BC /* Build configuration list for PBXNativeTarget "demoTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +514,7 @@
 				DF7B0DEA1C0E807F000371BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF7B0DEB1C0E807F000371BC /* Build configuration list for PBXNativeTarget "demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +523,7 @@
 				DF7B0DED1C0E807F000371BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
