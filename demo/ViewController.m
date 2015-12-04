@@ -81,7 +81,7 @@
     [cell addSubview:textlabel];
     [cell addSubview:rightbtn];
     
-    ////////////////////////////
+   
     return  cell;
 }
 
